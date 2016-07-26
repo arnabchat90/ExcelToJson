@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelToJson", "ExcelToJson\ExcelToJson.csproj", "{3A82A97B-E324-41EA-8241-70E85BAE07D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{8C376A3B-6F4D-4E14-9083-5C30FAE139DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C9901F23-14E7-42A8-BE40-DBD30782BDD9}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{20B1FC2C-C72C-48C7-8ADF-67A640A1AE9E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\ExcelToJson.json = PublishScripts\Templates\ExcelToJson.json
+		PublishScripts\Templates\ExcelToJson.param.dev.json = PublishScripts\Templates\ExcelToJson.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A82A97B-E324-41EA-8241-70E85BAE07D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A82A97B-E324-41EA-8241-70E85BAE07D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A82A97B-E324-41EA-8241-70E85BAE07D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A82A97B-E324-41EA-8241-70E85BAE07D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9901F23-14E7-42A8-BE40-DBD30782BDD9} = {8C376A3B-6F4D-4E14-9083-5C30FAE139DB}
+		{20B1FC2C-C72C-48C7-8ADF-67A640A1AE9E} = {8C376A3B-6F4D-4E14-9083-5C30FAE139DB}
+	EndGlobalSection
+EndGlobal

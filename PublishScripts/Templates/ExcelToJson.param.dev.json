@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "exceltojsonwebapi"
+  },
+  "hostingPlanName": {
+    "value": "Default1"
+  },
+  "siteLocation": {
+    "value": "Southeast Asia"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "0b1d80f9-29f7-4a9a-bfcc-9931b94cd957"
+  },
+  "resourceGroup": {
+    "value": "Default-Web-SoutheastAsia"
+  }
+}
